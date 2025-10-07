@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This diagram helps to show my specific project for our team project. It highnights the power source it is going to use to supply the voltage needed to work all of the components. I will be using an untrasonic sensor to measure the distance from our device to a wall. Everything will be connected to 5 volts and my board will be outputing an analog signal into pin 7 of a ribbon cable connected to Mathew's board.
+This diagram helps to show my specific project for our team project. It highnights the power source it is going to use to supply the voltage needed to work all of the components. I will be using an untrasonic sensor connected to an op amp which will filter the signal it recieves. This will measure the distance from our device to a wall. Everything will be connected to 5 volts and my board will be outputing an analog signal into pin 7 of a ribbon cable connected to Mathew's board.
 
 
 ## Block Diagram 
