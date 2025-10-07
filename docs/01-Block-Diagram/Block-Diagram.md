@@ -6,19 +6,11 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+This diagram helps to show my specific project for our team project. It highnights the power source it is going to use to supply the voltage needed to work all of the components. I will be using an untrasonic sensor to measure the distance from our device to a wall. Everything will be connected to 5 volts and my board will be outputing an analog signal into pin 7 of a ribbon cable connected to my teamates board.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Individual Block Diagram BW](https://github.com/user-attachments/assets/fb0c3cf3-e3be-4b7f-8727-e181b7f4f26e)
+
+
