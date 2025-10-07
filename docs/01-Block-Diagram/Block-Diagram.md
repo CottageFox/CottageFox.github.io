@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This diagram helps to show my specific project for our team project. It highnights the power source it is going to use to supply the voltage needed to work all of the components. I will be using an untrasonic sensor connected to an op amp which will filter the signal it recieves. This will measure the distance from our device to a wall. Everything will be connected to 5 volts and my board will be outputing an analog signal into pin 7 of a ribbon cable connected to Mathew's board.
+This diagram helps to show my specific project for our team project. I will be using a 5V, 1.5A voltage regulator which will power everything. I will be using an untrasonic sensor connected to an op amp which will filter the signal it recieves so the microcontroller can read it. This will measure the distance from our device to a wall. If it detects that our device has moved a certain distance away from the wall, it will output an analog signal into pin 7 of a ribbon cable. That cable will connect to Mathew's Microcontroller.
 
 
 ## Block Diagram 
