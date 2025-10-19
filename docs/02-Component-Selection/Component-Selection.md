@@ -50,9 +50,9 @@ title: Component Selection
     | Auto Calibration                                        |                                                 |
 
 <br>
-**Choice:** Option 2: URM37 Ultrasonic Distance Sensor Breakout
+**Choice:** Option 1: HC-SR04 Ultrasonic Sonar Distance Sensor
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** This is the cheapest option and the easiest to use. It has only 4 pins so it is easier to connect to the breadboard and is simple to wire so few mistakes will be made when wiring it.
 
 
 ###**Op-Amp**
@@ -66,10 +66,8 @@ title: Component Selection
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Has 4 op-amps                                           |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
+    | Has 4 op-amps                                           | Big size                                        |
+    | Low Power                                               | Expensive                                       |
 
 <br>
 ###2. MCP6022-I/P
@@ -81,10 +79,8 @@ title: Component Selection
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    |                                                         | Has 2 Op-Amps                                   |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
+    | Medium Size                                             | Has 2 Op-Amps                                   |
+    | Cheap                                                   | Power range is small                            |
 
 <br>
 ###3. MCP6241-E/P
@@ -96,20 +92,21 @@ title: Component Selection
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    |                                                         | Has 1 op-amp                               |
-    |                                                         | Has 3 pins that dont connect to anything        |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
+    | Medium Size                                             | Has 1 op-amp                                    |
+    | Cheap                                                   | Has 3 pins that dont connect to anything        |
 
 <br>
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Choice:** Option 1: MCP6004-I/P
 
-###**Power Regulator**
+**Rationale:** This op amp has 4 op-amps which is useful when needing multiple its better to have them on the same chip instead of buying multiples. While it is the most expensive of the 3, it is very cheap.
+
+
+###**Voltage Regulator**
 
 ###1. 
-    <<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/dc63f62f-801a-452b-8d35-f0193ab2af3d" />
+
+e
 
  * $0.59/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
@@ -120,3 +117,41 @@ title: Component Selection
     |                                                         |                                                 |
     |                                                         |                                                 |
     |                                                         |                                                 |
+
+<br>
+
+###2. 
+
+e
+
+ * $0.59/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+
+<br>
+
+###3. 
+
+e
+
+ * $0.59/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+
+<br>
+
+**Choice:** Option 1: MCP6004-I/P
+
+**Rationale:** This op amp has 4 op-amps which is useful when needing multiple its better to have them on the same chip instead of buying multiples. While it is the most expensive of the 3, it is very cheap.
