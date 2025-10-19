@@ -79,7 +79,7 @@ title: Component Selection
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Medium Size                                             | Has 2 Op-Amps                                   |
+    | Medium size                                             | Has 2 op-amps                                   |
     | Cheap                                                   | Power range is small                            |
 
 <br>
@@ -92,7 +92,7 @@ title: Component Selection
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Medium Size                                             | Has 1 op-amp                                    |
+    | Medium size                                             | Has 1 op-amp                                    |
     | Cheap                                                   | Has 3 pins that dont connect to anything        |
 
 <br>
@@ -104,54 +104,49 @@ title: Component Selection
 
 ###**Voltage Regulator**
 
-###1. 
+###1. UA7805CKCS
 
-e
+![VoltReg2](https://github.com/user-attachments/assets/576d58b0-ad51-4f11-8c54-c000c1dc0266)
+
+ * $1.34/each
+ * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/UA7805CKCS/521612)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    | Stable 5v output                                        | Bulky                                           |
+    | Built-in thermal and short-circuit protection           | Output is not adjustable                        |
+
+<br>
+
+###2. L7805CV
+
+![VoltReg3](https://github.com/user-attachments/assets/07653e4b-42fd-4726-926e-1c9006695195)
 
  * $0.59/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
+    | Wide input range                                        | Low efficiency                                  |
+    | Low output noise                                        | Bulky                                           |
 
 <br>
 
-###2. 
+###3. L7805ABV
 
-e
+![VoltReg1fix](https://github.com/user-attachments/assets/924febb9-5292-46b2-879e-01d1fda1c330)
 
  * $0.59/each
- * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+ * [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV/634711)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-
+    | Simple to use                                           | Low efficency                                   |
+    | Built-in thermal and short-circuit protection           | Bulky                                           |
+    | Low output noise                                        |                                                 |
+   
 <br>
 
-###3. 
+**Choice:** Option 3: L7805ABV
 
-e
-
- * $0.59/each
- * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
-
-    | Pros                                                    | Cons                                            |
-    | ------------------------------------------------------- | ----------------------------------------------- |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
-
-<br>
-
-**Choice:** Option 1: MCP6004-I/P
-
-**Rationale:** This op amp has 4 op-amps which is useful when needing multiple its better to have them on the same chip instead of buying multiples. While it is the most expensive of the 3, it is very cheap.
+**Rationale:** This is the simplest voltage regulator to use out of the 3. It has good protection features and low noise, making it a good option for analog circuits. 
