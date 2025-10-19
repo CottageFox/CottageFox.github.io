@@ -10,7 +10,6 @@ title: Component Selection
 
 ![Ultrasonic Image 1](https://github.com/user-attachments/assets/51443849-51f4-4ff7-a4e8-631a83d7909a)
 
-
  * $3.95/each
  * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
 
@@ -24,7 +23,7 @@ title: Component Selection
 
 ###2. URM37 Ultrasonic Distance Sensor Breakout
 
-e
+![Ultrasonic Image 2](https://github.com/user-attachments/assets/fad7b778-a96d-435b-a3d2-1818161f4941)
 
  * $13.90/each
  * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
@@ -38,7 +37,8 @@ e
 
 ###3. HRLV-ShortRange MB1604-000
 
-e
+
+
 
  * $34.95/each
  * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
