@@ -29,8 +29,8 @@ title: Component Selection Example
 
     <img width="621" height="359" alt="image" src="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655" />
 
-    * $3.95/each
-    * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
+ * $3.95/each
+ * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
@@ -44,14 +44,15 @@ title: Component Selection Example
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" />
 
 
-    * $13.90/each
-    * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
+ * $13.90/each
+ * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
     |               yeet                                      |            idk                                  |
     |                                                         |                                                 |
     |                                                         |                                                 |
+
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
