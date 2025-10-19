@@ -1,25 +1,6 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
-
-## Examples
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
 ### Component Selections
 
@@ -35,14 +16,14 @@ title: Component Selection Example
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
     | Inexpensive                                             | Not very stable design                          |
-    | Range: 10cm to 250 cm                                   | Only works with 5v                              |
+    | Range: 10cm to 250 cm                                   | Only works with 5V                              |
     | Compatible with microcontrollers                        |                                                 |
-    | Works with 5v                                           |                                                 |
+    | Works with 5V                                           |                                                 |
 
 
 2. URM37 Ultrasonic Distance Sensor Breakout
 
-    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" />
+    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/5bfb3b20-2ba1-42f2-9de8-525a682accf6" />
 
  * $13.90/each
  * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
@@ -50,14 +31,13 @@ title: Component Selection Example
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
     | Range: 2 - 800 cm                                       | A little expensive                              |
-    | Works with 5v                                           | Does not specify that it works with microcontrollers |
-    | Distance can output to PWM module                       |                                                 |
-    |                                                         |                                                 |
+    | Works with 5V                                           | Does not specify that it works with microcontrollers |
+    | Distance can output to PWM module                       | Weighs 25g                                      |
 
 
 3. HRLV-ShortRange MB1604-000
 
-    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/471e5f3a-762e-44c2-ace9-08f230bcf8ce" />
+    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/7a982a34-c666-4d2d-b607-3263f353bd79" />
 
  * $34.95/each
  * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
@@ -65,12 +45,12 @@ title: Component Selection Example
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
     | Range: 1mm - 5m                                         | Expensive                                       |
-    | Works with 5v                                           |                                                 |
-    | Low current draw                                        |                                                 |
-    |                                                         |                                                 |
+    | Works with 5V                                           | Requires noise free power                       |
+    | Draws 3.5mA at 5V                                       |                                                 |
+    | Auto Calibration                                        |                                                 |
 
    
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: URM37 Ultrasonic Distance Sensor Breakout
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
@@ -79,7 +59,7 @@ title: Component Selection Example
 
 1. MCP6004-I/P
 
-    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+    <<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/dc63f62f-801a-452b-8d35-f0193ab2af3d" />
 
  * $0.59/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
@@ -92,12 +72,12 @@ title: Component Selection Example
     |                                                         |                                                 |
 
 
-2. MCP6002-I/P
+2. MCP6022-I/P
 
-    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/100cd330-7744-4e10-8e3d-a38637d15e82" />
 
  * $0.44/each
- * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6022-I-P/417828)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
@@ -107,17 +87,21 @@ title: Component Selection Example
     |                                                         |                                                 |
 
 
-3. 
+3. MCP6241-E/P
 
-    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/e8fd6b80-96f5-4713-ba67-a376c4db95ff" />
 
- * $0.44/each
- * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+ * $0.43/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         | Has 1 op-amp                               |
+    |                                                         | Has 3 pins that dont connect to anything        |
     |                                                         |                                                 |
     |                                                         |                                                 |
-    |                                                         |                                                 |
-    |                                                         |                                                 |
+
+**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+
+**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
