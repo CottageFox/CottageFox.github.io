@@ -21,11 +21,11 @@ title: Component Selection Example
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
-### Style 2
+### Component Selections
 
-**External Ultrasonic Sensor**
+**Ultrasonic Sensor**
 
-1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors
+1. HC-SR04 Ultrasonic Sonar Distance Sensor
 
     <img width="621" height="359" alt="image" src="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655" />
 
@@ -34,26 +34,90 @@ title: Component Selection Example
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Inexpensive                                             |                                                 |
-    | Works best at 10cm to 250 cm                            |                                                 |
-    | Compatible with Microcontrollers                        |                                                 |
-    |                                                         |                                                 |
+    | Inexpensive                                             | Not very stable design                          |
+    | Range: 10cm to 250 cm                                   | Only works with 5v                              |
+    | Compatible with microcontrollers                        |                                                 |
+    | Works with 5v                                           |                                                 |
+
 
 2. URM37 Ultrasonic Distance Sensor Breakout
 
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" />
-
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" />
 
  * $13.90/each
  * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    |               yeet                                      |            idk                                  |
-    |                                                         |                                                 |
+    | Range: 2 - 800 cm                                       | A little expensive                              |
+    | Works with 5v                                           | Does not specify that it works with microcontrollers |
+    | Distance can output to PWM module                       |                                                 |
     |                                                         |                                                 |
 
 
+3. HRLV-ShortRange MB1604-000
+
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/471e5f3a-762e-44c2-ace9-08f230bcf8ce" />
+
+ * $34.95/each
+ * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    | Range: 1mm - 5m                                         | Expensive                                       |
+    | Works with 5v                                           |                                                 |
+    | Low current draw                                        |                                                 |
+    |                                                         |                                                 |
+
+   
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+
+
+**Op-Amp**
+
+1. MCP6004-I/P
+
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+
+ * $0.59/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    | Has 4 op-amps                                           |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+
+
+2. MCP6002-I/P
+
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+
+ * $0.44/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         | Has 2 Op-Amps                                   |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+
+
+3. 
+
+    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" />
+
+ * $0.44/each
+ * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+
