@@ -8,7 +8,8 @@ title: Component Selection
 
 ###1. HC-SR04 Ultrasonic Sonar Distance Sensor
 
-    <img width="621" height="359" alt="image" src="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655" />
+![Ultrasonic Image 1](https://github.com/user-attachments/assets/51443849-51f4-4ff7-a4e8-631a83d7909a)
+
 
  * $3.95/each
  * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
@@ -23,7 +24,7 @@ title: Component Selection
 
 ###2. URM37 Ultrasonic Distance Sensor Breakout
 
-    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/5bfb3b20-2ba1-42f2-9de8-525a682accf6" />
+e
 
  * $13.90/each
  * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
@@ -37,7 +38,7 @@ title: Component Selection
 
 ###3. HRLV-ShortRange MB1604-000
 
-    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/7a982a34-c666-4d2d-b607-3263f353bd79" />
+e
 
  * $34.95/each
  * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
