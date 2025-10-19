@@ -567,9 +567,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+  <a href="#component-selections" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Component Selections
     </span>
   </a>
   
@@ -834,9 +834,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+  <a href="#component-selections" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Component Selections
     </span>
   </a>
   
@@ -902,11 +902,11 @@
 </table>
 <p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
 <p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<p><strong>External Ultrasonic Sensor</strong></p>
+<h3 id="component-selections">Component Selections</h3>
+<p><strong>Ultrasonic Sensor</strong></p>
 <ol>
 <li>
-<p>HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors</p>
+<p>HC-SR04 Ultrasonic Sonar Distance Sensor</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655" data-desc-position="bottom"><img width="621" height="359" alt="image" src="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655"></a></p>
 </li>
 <li>
@@ -924,18 +924,18 @@
 <tbody>
 <tr>
 <td>Inexpensive</td>
+<td>Not very stable design</td>
+</tr>
+<tr>
+<td>Range: 10cm to 250 cm</td>
+<td>Only works with 5v</td>
+</tr>
+<tr>
+<td>Compatible with microcontrollers</td>
 <td></td>
 </tr>
 <tr>
-<td>Works best at 10cm to 250 cm</td>
-<td></td>
-</tr>
-<tr>
-<td>Compatible with Microcontrollers</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
+<td>Works with 5v</td>
 <td></td>
 </tr>
 </tbody>
@@ -943,11 +943,11 @@
 </li>
 <li>
 <p>URM37 Ultrasonic Distance Sensor Breakout</p>
-</li>
-</ol>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f"></a></p>
-<ul>
-<li>$13.90/each</li>
+</li>
+<li>
+<p>$13.90/each</p>
+</li>
 <li>
 <p><a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449">Link to product</a></p>
 <table>
@@ -959,8 +959,89 @@
 </thead>
 <tbody>
 <tr>
-<td>yeet</td>
-<td>idk</td>
+<td>Range: 2 - 800 cm</td>
+<td>A little expensive</td>
+</tr>
+<tr>
+<td>Works with 5v</td>
+<td>Does not specify that it works with microcontrollers</td>
+</tr>
+<tr>
+<td>Distance can output to PWM module</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>HRLV-ShortRange MB1604-000</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/471e5f3a-762e-44c2-ace9-08f230bcf8ce" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/471e5f3a-762e-44c2-ace9-08f230bcf8ce"></a></p>
+</li>
+<li>
+<p>$34.95/each</p>
+</li>
+<li>
+<p><a href="https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036">Link to product</a></p>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range: 1mm - 5m</td>
+<td>Expensive</td>
+</tr>
+<tr>
+<td>Works with 5v</td>
+<td></td>
+</tr>
+<tr>
+<td>Low current draw</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
+<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Op-Amp</strong></p>
+<ol>
+<li>
+<p>MCP6004-I/P</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce"></a></p>
+</li>
+<li>
+<p>$0.59/each</p>
+</li>
+<li>
+<p><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">link to product</a></p>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Has 4 op-amps</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td></td>
@@ -973,9 +1054,78 @@
 </tbody>
 </table>
 </li>
-</ul>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<li>
+<p>MCP6002-I/P</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce"></a></p>
+</li>
+<li>
+<p>$0.44/each</p>
+</li>
+<li>
+<p><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">link to product</a></p>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Has 2 Op-Amps</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/a496aac4-5176-460e-be0d-92e7050120ce"></a></p>
+</li>
+<li>
+<p>$0.44/each</p>
+</li>
+<li>
+<p><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">link to product</a></p>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
 
 
 
