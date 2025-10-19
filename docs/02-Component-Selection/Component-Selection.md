@@ -37,8 +37,7 @@ title: Component Selection
 
 ###3. HRLV-ShortRange MB1604-000
 
-
-
+<img width="640" height="640" alt="Ultrasonic Image 3" src="https://github.com/user-attachments/assets/d70fd146-f869-47cf-92e6-a2755ed5f989" />
 
  * $34.95/each
  * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
