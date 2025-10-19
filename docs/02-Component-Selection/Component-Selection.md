@@ -20,7 +20,7 @@ title: Component Selection
     | Compatible with microcontrollers                        |                                                 |
     | Works with 5V                                           |                                                 |
 
-
+<br>
 ###2. URM37 Ultrasonic Distance Sensor Breakout
 
 ![Ultrasonic Image 2](https://github.com/user-attachments/assets/fad7b778-a96d-435b-a3d2-1818161f4941)
@@ -34,7 +34,7 @@ title: Component Selection
     | Works with 5V                                           | Does not specify that it works with microcontrollers |
     | Distance can output to PWM module                       | Weighs 25g                                      |
 
-
+<br>
 ###3. HRLV-ShortRange MB1604-000
 
 <img width="640" height="640" alt="Ultrasonic Image 3" src="https://github.com/user-attachments/assets/d70fd146-f869-47cf-92e6-a2755ed5f989" />
@@ -49,7 +49,7 @@ title: Component Selection
     | Draws 3.5mA at 5V                                       |                                                 |
     | Auto Calibration                                        |                                                 |
 
-   
+<br>
 **Choice:** Option 2: URM37 Ultrasonic Distance Sensor Breakout
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
