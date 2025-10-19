@@ -23,35 +23,35 @@ title: Component Selection Example
 
 ### Style 2
 
-> Also acceptable, more markdown friendly
+**External Ultrasonic Sensor**
 
-**External Clock Module**
+1. HC-SR04 Ultrasonic Sonar Distance Sensor + 2 x 10K resistors
 
-1. XC1259TR-ND surface mount crystal
+    <img width="621" height="359" alt="image" src="https://github.com/user-attachments/assets/164d255a-cecc-442a-a3ae-f051c4a0e655" />
 
-    ![](image1.png)
+    * $3.95/each
+    * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    | Inexpensive                                             |                                                 |
+    | Works best at 10cm to 250 cm                            |                                                 |
+    | Compatible with Microcontrollers                        |                                                 |
+    |                                                         |                                                 |
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+2. URM37 Ultrasonic Distance Sensor Breakout
 
-1. CTX936TR-ND surface mount oscillator
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/35cf7e42-7a4f-46ae-8cfe-90a6d35b7e8f" />
 
-    ![](image3.png)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $13.90/each
+    * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
+    |                                                         |                                                 |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
