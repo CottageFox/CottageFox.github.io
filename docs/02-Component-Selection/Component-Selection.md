@@ -59,7 +59,7 @@ title: Component Selection
 
 ###1. MCP6004-I/P
 
-    <<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/dc63f62f-801a-452b-8d35-f0193ab2af3d" />
+![OpAmp1](https://github.com/user-attachments/assets/d6c534dd-5a11-466c-a672-1b2587aed40f)
 
  * $0.59/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
@@ -71,10 +71,10 @@ title: Component Selection
     |                                                         |                                                 |
     |                                                         |                                                 |
 
-
+<br>
 ###2. MCP6022-I/P
 
-    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/100cd330-7744-4e10-8e3d-a38637d15e82" />
+![OpAmp2](https://github.com/user-attachments/assets/a153ec0e-7af1-4f1c-84d2-cd3dd0903927)
 
  * $0.44/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6022-I-P/417828)
@@ -86,10 +86,10 @@ title: Component Selection
     |                                                         |                                                 |
     |                                                         |                                                 |
 
-
+<br>
 ###3. MCP6241-E/P
 
-    <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/e8fd6b80-96f5-4713-ba67-a376c4db95ff" />
+![OpAmp3](https://github.com/user-attachments/assets/3e721cca-783b-44a0-a3d5-49bb5ece966a)
 
  * $0.43/each
  * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6241-E-P/683249)
@@ -101,6 +101,7 @@ title: Component Selection
     |                                                         |                                                 |
     |                                                         |                                                 |
 
+<br>
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
