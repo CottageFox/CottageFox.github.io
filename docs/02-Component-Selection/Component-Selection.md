@@ -123,7 +123,7 @@ title: Component Selection
 ![VoltReg3](https://github.com/user-attachments/assets/07653e4b-42fd-4726-926e-1c9006695195)
 
  * $0.59/each
- * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+ * [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
