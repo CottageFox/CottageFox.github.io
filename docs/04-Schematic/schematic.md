@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is designed to support .... (highlight functionally, power, and controller).
+This schematic is designed to show the specifics of my design, to highlight the functionality of my design, show how power is connected and shows the microcontroller and all the pins that are connected to it.
 
 
 <img width="2339" height="1654" alt="Subsystem Schematic Design-1" src="https://github.com/user-attachments/assets/0383611c-4ff7-4c5f-a675-4f14706e64b4" />
