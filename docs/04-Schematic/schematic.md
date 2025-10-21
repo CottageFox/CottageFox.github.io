@@ -13,4 +13,4 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*]([Subsystem Schematic Design.pdf](https://github.com/user-attachments/files/23014125/Subsystem.Schematic.Design.pdf), and the Zip folder of the project [*here*]([Subsystem Schematic Design.zip](https://github.com/user-attachments/files/23014129/Subsystem.Schematic.Design.zip)
+The schematic as a PDF download is available [*here*]([Subsystem Schematic Design.pdf](https://github.com/user-attachments/files/23014125/Subsystem.Schematic.Design.pdf)), and the Zip folder of the project [*here*]([Subsystem Schematic Design.zip](https://github.com/user-attachments/files/23014129/Subsystem.Schematic.Design.zip))
