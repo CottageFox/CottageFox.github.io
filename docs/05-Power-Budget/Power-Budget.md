@@ -12,7 +12,7 @@ I made a power budget for my components by finding their datasheets and finding 
 
 ## Conclusions
 
-The power budget has helped me to estimate power
+The power budget has helped me to estimate how much power my system needs. With a 9V wall power supply with 5A, connected to a voltage regulator that outputs 5V and 1.5A I have enough power for all of my components. I came to the conclusion that there is plenty of power to spare to add more components if need be.
 
 ## Resouces
 
