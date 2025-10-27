@@ -52,7 +52,7 @@ title: Component Selection
 <br>
 **Choice:** Option 1: HC-SR04 Ultrasonic Sonar Distance Sensor
 
-**Rationale:** This is the cheapest option and the easiest to use. It has only 4 pins so it is easier to connect to the breadboard and is simple to wire so few mistakes will be made when wiring it.
+**Rationale:** This is the cheapest option and the easiest to use. It has only 4 pins so it is easier to connect to the breadboard and is simple to wire so few mistakes will be made when wiring it. It is a through hole component and draws a small amount of current, which meets our project requirements. 
 
 
 ###**Op-Amp**
@@ -99,7 +99,7 @@ title: Component Selection
 
 **Choice:** Option 1: MCP6004-I/P
 
-**Rationale:** This op amp has 4 op-amps which is useful when needing multiple its better to have them on the same chip instead of buying multiples. While it is the most expensive of the 3, it is very cheap.
+**Rationale:** This op amp has 4 op-amps which is useful when needing multiple its better to have them on the same chip instead of buying multiples. While it is the most expensive of the 3, it is very cheap. It is a through hole component and has a very low current draw, so it fits well within the project requirements.
 
 
 ###**Voltage Regulator**
@@ -149,4 +149,4 @@ title: Component Selection
 
 **Choice:** Option 3: L7805ABV
 
-**Rationale:** This is the simplest voltage regulator to use out of the 3. It has good protection features and low noise, making it a good option for analog circuits. 
+**Rationale:** This is the simplest voltage regulator to use out of the 3. It has good protection features and low noise, making it a good option for analog circuits. It is through hole and supplies enough voltage and current that meets our project requirements.
