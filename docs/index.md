@@ -28,10 +28,10 @@ Our project is to create a door sensor that will sense if it has been opened, th
 
 My part of this project is to design the sensor subsystem that will determine how far away our device is from a wall. I have an ultrasonic sensor that sends a signal to the microcontroller which then sends a signal back to the ultrasonic sensor so it can continue reading. That information can be seen through the UART function of the microcontroller's programming to see what the sensor sees and the specific values that it reads. From there I can determine how far away the device is from a wall and send that signal to my teamates systems. 
 
-This datasheet has sections with more information on the specifics of my subsystem. 
-For my block diagram, see [Block Diagram.](https://cottagefox.github.io/01-Block-Diagram/Block-Diagram/)
-For my component sellection, see [Component Selection.](https://cottagefox.github.io/02-Component-Selection/Component-Selection/)
-For my bill of materials, see [BOM.](https://cottagefox.github.io/03-BOM/BOM/)
-For my schematic, see [Schematic.](https://cottagefox.github.io/04-Schematic/schematic/)
-For my power budget, see [Power Budget.](https://cottagefox.github.io/05-Power-Budget/Power-Budget/)
+This datasheet has sections with more information on the specifics of my subsystem. <br>
+For my block diagram, see [Block Diagram.](https://cottagefox.github.io/01-Block-Diagram/Block-Diagram/) <br>
+For my component sellection, see [Component Selection.](https://cottagefox.github.io/02-Component-Selection/Component-Selection/) <br>
+For my bill of materials, see [BOM.](https://cottagefox.github.io/03-BOM/BOM/) <br>
+For my schematic, see [Schematic.](https://cottagefox.github.io/04-Schematic/schematic/) <br>
+For my power budget, see [Power Budget.](https://cottagefox.github.io/05-Power-Budget/Power-Budget/) 
 
