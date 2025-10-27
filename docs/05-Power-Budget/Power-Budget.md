@@ -12,7 +12,7 @@ I made a power budget for my components by finding their datasheets and finding 
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+The power budget has helped me to estimate power
 
 ## Resouces
 
