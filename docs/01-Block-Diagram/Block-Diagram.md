@@ -11,6 +11,5 @@ This diagram helps to show my specific project for our team project. I will be u
 
 ## Block Diagram 
 
-![Individual Block Diagram BW](https://github.com/user-attachments/assets/fb0c3cf3-e3be-4b7f-8727-e181b7f4f26e)
-
+<img width="751" height="739" alt="image" src="https://github.com/user-attachments/assets/736eda48-411c-4ad4-9548-620e039bd11b" />
 
