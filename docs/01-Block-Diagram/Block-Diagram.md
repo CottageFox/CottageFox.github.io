@@ -11,6 +11,4 @@ This diagram helps to show my specific project for our team project. I will be u
 
 ## Block Diagram 
 
-<img width="660" height="559" alt="Individual Block Diagram BW Updated drawio" src="https://github.com/user-attachments/assets/1d8d4e15-7ed4-471d-a10e-fd36b047592a" />
-
-
+<img width="660" height="559" alt="Individual Block Diagram BW Updated drawio" src="https://github.com/user-attachments/assets/a47a0b37-d8ab-4335-bf4a-51a6d24b0a28" />
