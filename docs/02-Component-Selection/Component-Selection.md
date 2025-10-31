@@ -32,7 +32,7 @@ title: Component Selection
     | ------------------------------------------------------- | ----------------------------------------------- |
     | Range: 2 - 800 cm                                       | A little expensive                              |
     | Works with 5V                                           | Does not specify that it works with microcontrollers |
-    | Distance can output to PWM module                       | Weighs 25g                                      |
+    | Outputs digital and analog signals                      | Weighs 25g                                      |
 
 <br>
 ###3. HRLV-ShortRange MB1604-000
@@ -50,10 +50,9 @@ title: Component Selection
     | Auto Calibration                                        |                                                 |
 
 <br>
-**Choice:** Option 1: HC-SR04 Ultrasonic Sonar Distance Sensor
+**Choice:** Option 2: URM37 Ultrasonic Distance Sensor Breakout
 
-**Rationale:** This is the cheapest option and the easiest to use. It has only 4 pins so it is easier to connect to the breadboard and is simple to wire so few mistakes will be made when wiring it. It is a through hole component and draws a small amount of current, which meets our project requirements. 
-
+**Rationale:** This is the best choice as it has plenty of outputs so I can use the analog signal and amplify it, or the digital signal. The component is through hole and is a bit expensive, however it has a great range and has a low current draw of 20mA.
 
 ###**Op-Amp**
 
