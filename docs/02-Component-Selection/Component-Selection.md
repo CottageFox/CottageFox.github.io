@@ -146,6 +146,6 @@ title: Component Selection
    
 <br>
 
-**Choice:** Option 3: L7805ABV
+**Choice:** Option 2: L7805CV
 
-**Rationale:** This is the simplest voltage regulator to use out of the 3. It has good protection features and low noise, making it a good option for analog circuits. It is through hole and supplies enough voltage and current that meets our project requirements.
+**Rationale:** This is the voltage regulator that we have been using in class, so it will be easy to use as we have used it before. These coponents all do the same thing just are made by different companies and are slighly different. This voltage regulator is a great choice for our project requirements of needing 5V and 1.5A of current outputed by the voltage regulator.
