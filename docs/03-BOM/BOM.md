@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-written context
+I have a table that shows all of my components used for my subsystem of Team 209's project. My subsystem provides a visual to the rest of our project's systems by using an ultrasonic sensor.
 
 ## Bill of Materials Example (as Table)
 
@@ -23,12 +23,7 @@ Tactile Push Button | 1 | $0.10 | $0.10 | CUI Devices | TS02-66-60-BK-160-LCR-D 
 Resistors (various for pull-ups / current limiting) | 5 | $0.01 | $0.05 | Yageo | RC0603FR-0710KL | Digikey | 732301 | [Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/732301) | [Datasheet](https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L) | 5 | 2025-10-31 | 5 | R1, R2, R3, R4, R5 |
 Capacitors (0.1µF) | 3 | $0.28 | $0.84 | KEMET | C0805F104K5RACTU | PRLTA 109 | n/a | n/a | n/a | 3 | 2025-10-31 | 3 | C1, C2, C3 |
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
+###Summary 
+I will be using the Microchip PIC18F57Q43 microcontroller, a Voltage Regulator, an ultrasonic sensor, an op-amp, an LED, a button, some resistors and some capacitors.
 
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+Total cost estimated: $26.02
