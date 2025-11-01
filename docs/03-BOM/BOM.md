@@ -14,7 +14,6 @@ written context
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor** | **Vendor Part #** | **Vendor Link** |**Datasheet Link** | **# Ordered** | **Date Ordered** | **# Recieved** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|:-----|:-----|:-----|:-----|:-----|
-
 Fermion: URM37 Ultrasonic Distance Sensor Breakout | 1 | $13.90 | $13.90 | DFRobot |	SEN0001 | Digikey | 1738-1027-ND | [Link](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449) | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6063/SEN0001.pdf) | 1 | 2025-10-31 | 1 | U3 |
 MCP6004-I/P Rail-to-Rail Op-Amp | 1 | $0.59 | $0.59 | Microchip Technology | MCP6004-I/P | Digikey | MCP6004-I/P-ND | [Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | 1 | 2025-10-31 | 1 | U14 |
 L7805CV Voltage Regulator | 1 | $0.50 | $0.50 | STMicroelectronics | L7805CV | Digikey | 497-1443-5-ND | [Link](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) | [Datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf) | 1 | 2025-10-31 | 1 | U2 |
