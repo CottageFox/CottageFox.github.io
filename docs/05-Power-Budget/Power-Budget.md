@@ -14,9 +14,13 @@ I made a power budget for my components by finding their datasheets and finding 
 
 ## Conclusions
 
-The power budget has helped me to estimate how much power my system needs. With a 9V wall power supply with 5A, connected to a voltage regulator that outputs 5V and 1.5A I have enough power for all of my components. I came to the conclusion that there is plenty of power to spare to add more components if need be.
+The power budget has helped me to estimate how much power my system needs. I only have 3 components so my power needs are very low. I am only using a +5V rail so my design is fairly simple. My ultrasonic sensor draws a small amount of current, and my op-amp draws a very small amount of current. From the power budget I determined that I have enough power for my components using the voltage regulator we have been using. 
+
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*]([Power Budget BW Updated.pdf](https://github.com/user-attachments/files/23247678/Power.Budget.BW.Updated.pdf)), and a Microsoft Excel Sheet [*here*]([Power Budget BW.xlsx](https://github.com/user-attachments/files/23247680/Power.Budget.BW.xlsx)
+The power budget as a PDF download is available [*here*]([Power Budget BW Updated.pdf](https://github.com/user-attachments/files/23280111/Power.Budget.BW.Updated.pdf)), and a Microsoft Excel Sheet [*here*]([Power Budget BW.xlsx](https://github.com/user-attachments/files/23247680/Power.Budget.BW.xlsx)
 ).
+
+
+
