@@ -13,6 +13,6 @@ My schematic here has a 9V power supply connected to a 3A fuse in case too much 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*]([Subsystem Schematic Design.pdf](https://github.com/user-attachments/files/23430329/Subsystem.Schematic.Design.pdf)), and the Zip folder of the project [*here*]([Subsystem Schematic Design.zip](https://github.com/user-attachments/files/23430336/Subsystem.Schematic.Design.zip))
+The schematic as a PDF download is available [*here*](https://github.com/user-attachments/files/23430329/Subsystem.Schematic.Design.pdf), and the Zip folder of the project [*here*](https://github.com/user-attachments/files/23430336/Subsystem.Schematic.Design.zip)
 
 
