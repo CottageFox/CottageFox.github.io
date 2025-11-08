@@ -17,7 +17,7 @@ This is my PCB design.
 
 ## Resouces
 
-The PDF of the images can be downloaded [*here*]([PCB Images BW.pdf](https://github.com/user-attachments/files/23430460/PCB.Images.BW.pdf)), and the Zip folder of the project can be downloaded [*here*]([Subsystem Schematic Design.zip](https://github.com/user-attachments/files/23430464/Subsystem.Schematic.Design.zip))
+The PDF of the images can be downloaded [*here*](https://github.com/user-attachments/files/23430460/PCB.Images.BW.pdf), and the Zip folder of the project can be downloaded [*here*](https://github.com/user-attachments/files/23430464/Subsystem.Schematic.Design.zip)
 
 
 
