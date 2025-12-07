@@ -151,5 +151,20 @@ title: Component Selection
 **Rationale:** This is the voltage regulator that we have been using in class, so it will be easy to use as we have used it before. These coponents all do the same thing just are made by different companies and are slighly different. This voltage regulator is a great choice for our project requirements of needing 5V and 1.5A of current outputed by the voltage regulator.
 
 ### Decision making process:
-I selected components that would suffice my part of the project. I needed to choose a sensor that could detect how far away our device was from a wall. So, I decided on an ultrasonic sensor. I had 3 choices and ultimately went with my second choice. The first one did not have an analog output, and the third choice was too expensive as well as it is a surface mount part. My second choice has an analog output but is a bit expensive, however it was the best choice for my subsystem. Then I had to choose an op-amp to amplify the analog signal from my sensor. I had 3 choices, my first choice has 4 op-amps, my second choice has 2 op-amps and my third choice has 1 op-amp. I chose my first option as it is the one we have been using in class, and it allows me to add more op-amps in the future if I need to and is very cheap. Then I had to choose a voltage regulator. I had 3 choices and they were all about the same, just different makers. I went with my second option as it is the one we use in class, but they would all work and do the same thing.
+I selected components that would suffice my part of the project. I needed to choose a sensor that could detect how far away our device was from a wall. 
 
+#fix So, I decided on an IR Emitter/Detector pair. I had 3 choices and ultimately went with my second choice. The first one did not have an analog output, and the third choice was too expensive as well as it is a surface mount part. My second choice has an analog output but is a bit expensive, however it was the best choice for my subsystem. 
+
+Then I had to choose an op-amp to amplify the analog signal from my sensor. I had 3 choices, my first choice has 4 op-amps, my second choice has 2 op-amps and my third choice has 1 op-amp. I chose my first option as it is the one we have been using in class, and it allows me to add more op-amps in the future if I need to and is very cheap. Then I had to choose a voltage regulator. I had 3 choices and they were all about the same, just different makers. I went with my second option as it is the one we use in class, but they would all work and do the same thing.
+
+### MCC Configuration (PIC)
+| Module | Function | Direction | Pin | Description |
+| ------ | -------- | --------- | --- | ----------- |
+| UART1  | RX1      | input     | RF1 | UART input  |
+|        | TX1      | output    | RF0 | UART output |
+| ADCC   | ANx      | input     | RA0 | Analog input |
+| RESET  | MCLR     | input     | RE3 | Reset       |
+| Pins   | GPIO     | input     | RF6 | Debugging Button |
+|        | GPIO     | output    | RF4 | Teamate 1 Output |
+|        | GPIO     | output    | RF5 | Teamate 2 Output |
+|        | GPIO     | output    | RF7 | Debugging LED |
