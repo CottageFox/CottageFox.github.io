@@ -154,6 +154,16 @@ title: Component Selection
 ### Decision making process:
 I selected components that would suffice my part of the project. I needed to choose a sensor that could detect how far away our device was from a wall. So, I decided on an IR Emitter/Detector pair. I had 3 choices and ultimately went with my first choice. We have used this in class and it is small with a good range. Option 2 was good but I think the wires would be more annoying to try and breadboard/solder with, and option 3 was bulky with a very small range. Then I had to choose an op-amp to amplify the analog signal from my sensor. I had 3 choices, my first choice has 4 op-amps, my second choice has 2 op-amps and my third choice has 1 op-amp. I chose my first option as it is the one we have been using in class, and it allows me to add more op-amps in the future if I need to and is very cheap. Then I had to choose a voltage regulator. I had 3 choices and they were all about the same, just different makers. I went with my second option as it is the one we use in class, but they would all work and do the same thing.
 
+### Sumary Table
+These are the final Components I will be using in my project.
+
+| Component | Name | Image | Price | Link |
+| --------- | ---- | ----- | ----- | ---- |
+| IR Emitter/Detector Pair | OPB732 Long Distance Reflective Switch | ![IR image 1](https://github.com/user-attachments/assets/bbe1d9ad-f4e9-492d-907f-6282bf47544a) | $4.61 | [link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069) |
+| Op-Amp | MCP6004-I/P | ![OpAmp1](https://github.com/user-attachments/assets/d6c534dd-5a11-466c-a672-1b2587aed40f) | $0.59 | [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) |
+| Voltage Regulator | L7805CV | ![VoltReg3](https://github.com/user-attachments/assets/07653e4b-42fd-4726-926e-1c9006695195) | $0.50 | [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964) |
+
+
 ### MCC Configuration (PIC)
 | Module | Function | Direction | Pin | Description |
 | ------ | -------- | --------- | --- | ----------- |
