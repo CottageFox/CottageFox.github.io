@@ -4,55 +4,56 @@ title: Component Selection
 
 ### Component Selections
 
-###**Ultrasonic Sensor**
+###**IR Emitter / Detector Pair**
 
-###1. HC-SR04 Ultrasonic Sonar Distance Sensor
+###1. OPB732 Long Distance Reflective Switch
 
-![Ultrasonic Image 1](https://github.com/user-attachments/assets/51443849-51f4-4ff7-a4e8-631a83d7909a)
+![IR image 1](https://github.com/user-attachments/assets/bbe1d9ad-f4e9-492d-907f-6282bf47544a)
 
- * $3.95/each
- * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3942/9658069)
 
-    | Pros                                                    | Cons                                            |
-    | ------------------------------------------------------- | ----------------------------------------------- |
-    | Inexpensive                                             | Not very stable design                          |
-    | Range: 10cm to 250 cm                                   | Only works with 5V                              |
-    | Compatible with microcontrollers                        |                                                 |
-    | Works with 5V                                           |                                                 |
-
-<br>
-###2. URM37 Ultrasonic Distance Sensor Breakout
-
-![Ultrasonic Image 2](https://github.com/user-attachments/assets/fad7b778-a96d-435b-a3d2-1818161f4941)
-
- * $13.90/each
- * [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0001/6588449)
+ * $4.61/each
+ * [link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Range: 2 - 800 cm                                       | A little expensive                              |
-    | Works with 5V                                           | Does not specify that it works with microcontrollers |
-    | Outputs digital and analog signals                      | Weighs 25g                                      |
+    | Easy to solder                                          | Wires are close together                        |
+    | Range: 3in                                              |                                                 |
+    | Small                                                   |                                                 |
+
 
 <br>
-###3. HRLV-ShortRange MB1604-000
 
-<img width="640" height="640" alt="Ultrasonic Image 3" src="https://github.com/user-attachments/assets/d70fd146-f869-47cf-92e6-a2755ed5f989" />
+###2. OPB732WZ Long Distance Reflective Switch
 
- * $34.95/each
- * [Link to product](https://www.digikey.com/en/products/detail/maxbotix-inc/MB1604-000/13422036)
+<img width="637" height="640" alt="IR Image 2" src="https://github.com/user-attachments/assets/ac293182-7fdc-4b26-9bdc-da18ccc41305" />
+
+ * $5.88/each
+ * [Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732WZ/1637071)
 
     | Pros                                                    | Cons                                            |
     | ------------------------------------------------------- | ----------------------------------------------- |
-    | Range: 1mm - 5m                                         | Expensive                                       |
-    | Works with 5V                                           | Requires noise free power                       |
-    | Draws 3.5mA at 5V                                       |                                                 |
-    | Auto Calibration                                        |                                                 |
+    | Range: 3in                                              | Annoying to solder                              |
+    | Wires are spread out                                    |                                                 |
 
 <br>
-**Choice:** Option 2: URM37 Ultrasonic Distance Sensor Breakout
 
-**Rationale:** This is the best choice as it has plenty of outputs so I can use the analog signal and amplify it, or the digital signal. The component is through hole and is a bit expensive, however it has a great range and has a low current draw of 20mA.
+###3. OPB702 Reflective Object Sensor
+
+<img width="308" height="326" alt="IR Image 3" src="https://github.com/user-attachments/assets/3fdc7f9a-5daf-44c1-a689-39d46af14b22" />
+
+
+ * $3.33/each
+ * [Link to product](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB702/1637043)
+
+    | Pros                                                    | Cons                                            |
+    | ------------------------------------------------------- | ----------------------------------------------- |
+    | Small                                                   | Bulky                                           |
+    |                                                         | Range: 0.15in                                   |
+
+<br>
+**Choice:** Option 1: OPB732 Long Distance Reflective Switch
+
+**Rationale:** This is the best choice as it is small, has a good range and we have used it in class, option 2 is the same as option 1 but with wires, however I think they will be more annoying to solder trying to use flimsy wires compared to the stiff wires in option 1.
 
 ###**Op-Amp**
 
@@ -151,11 +152,7 @@ title: Component Selection
 **Rationale:** This is the voltage regulator that we have been using in class, so it will be easy to use as we have used it before. These coponents all do the same thing just are made by different companies and are slighly different. This voltage regulator is a great choice for our project requirements of needing 5V and 1.5A of current outputed by the voltage regulator.
 
 ### Decision making process:
-I selected components that would suffice my part of the project. I needed to choose a sensor that could detect how far away our device was from a wall. 
-
-#fix So, I decided on an IR Emitter/Detector pair. I had 3 choices and ultimately went with my second choice. The first one did not have an analog output, and the third choice was too expensive as well as it is a surface mount part. My second choice has an analog output but is a bit expensive, however it was the best choice for my subsystem. 
-
-Then I had to choose an op-amp to amplify the analog signal from my sensor. I had 3 choices, my first choice has 4 op-amps, my second choice has 2 op-amps and my third choice has 1 op-amp. I chose my first option as it is the one we have been using in class, and it allows me to add more op-amps in the future if I need to and is very cheap. Then I had to choose a voltage regulator. I had 3 choices and they were all about the same, just different makers. I went with my second option as it is the one we use in class, but they would all work and do the same thing.
+I selected components that would suffice my part of the project. I needed to choose a sensor that could detect how far away our device was from a wall. So, I decided on an IR Emitter/Detector pair. I had 3 choices and ultimately went with my first choice. We have used this in class and it is small with a good range. Option 2 was good but I think the wires would be more annoying to try and breadboard/solder with, and option 3 was bulky with a very small range. Then I had to choose an op-amp to amplify the analog signal from my sensor. I had 3 choices, my first choice has 4 op-amps, my second choice has 2 op-amps and my third choice has 1 op-amp. I chose my first option as it is the one we have been using in class, and it allows me to add more op-amps in the future if I need to and is very cheap. Then I had to choose a voltage regulator. I had 3 choices and they were all about the same, just different makers. I went with my second option as it is the one we use in class, but they would all work and do the same thing.
 
 ### MCC Configuration (PIC)
 | Module | Function | Direction | Pin | Description |
