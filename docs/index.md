@@ -34,4 +34,5 @@ For my component sellection, see [Component Selection.](https://cottagefox.githu
 For my bill of materials, see [BOM.](https://cottagefox.github.io/03-BOM/BOM/) <br>
 For my schematic, see [Schematic.](https://cottagefox.github.io/04-Schematic/schematic/) <br>
 For my power budget, see [Power Budget.](https://cottagefox.github.io/05-Power-Budget/Power-Budget/) 
-
+For my PCB, see [PCB Design](https://cottagefox.github.io/06-PCB-Design/06-PCB-Design/)
+For my code, see [Microcontroller Code](https://cottagefox.github.io/07-Microcontroller-Code/07-Microcontroller-Code/)
