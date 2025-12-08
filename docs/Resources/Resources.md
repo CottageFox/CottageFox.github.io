@@ -1,7 +1,7 @@
 ---
-title: Individal Block Diagram
+title: Resources
 ---
 
-### Resources
-MPLabX Zip file can be downloaded [*here*]()
+### Downloads
+MPLabX Zip file can be downloaded [*here*]() <br>
 KiCAD Project Zip file can be downloaded [*here*]()
