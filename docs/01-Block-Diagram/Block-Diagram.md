@@ -15,4 +15,4 @@ This diagram helps to show my specific project for our team project. I will be u
 
 <br>
 
-Each block helps to meet the requirements of our product. The Power supply supplies power to the system. The Voltage regulator regulates the power going through the system. The IR Emitter / Detector is going to an Op-amp to amplify it, which then goes to the ADC of the microcontroller. This converts the analog signal to a digital signal which the microcontroller can understand. There are Digital I/Os, the LED and Switch are for debugging. Then there are 2 ribbon cable connectors which connect to my teamates and have a universlal ground.
+My block diagram helps to meet our team product requirements as I have a sensor that is outputing an analog signal, that is then getting amplified by an op-amp and going into the microcontroller. I have an LED and Button for debugging, and am outputting to 2 ribbon cables that connect to 2 of my teamates. 
