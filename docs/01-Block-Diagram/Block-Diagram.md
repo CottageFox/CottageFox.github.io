@@ -13,3 +13,5 @@ This diagram helps to show my specific project for our team project. I will be u
 <br>
 
 My block diagram helps to meet our team product requirements as I have a sensor that is outputing an analog signal, that is then getting amplified by an op-amp and going into the microcontroller. I have an LED and Button for debugging, and am outputting to 2 ribbon cables that connect to 2 of my teamates. 
+
+The zip file with my source files can be downloaded [*here*](https://github.com/user-attachments/files/24026580/Block.Diagram.Sources.zip)
