@@ -10,7 +10,7 @@ I made a power budget for my components by finding their datasheets and finding 
 
 ## Conclusions
 
-The power budget has helped me to estimate how much power my system needs. I only have 3 components so my power needs are very low. I am only using a +5V rail so my design is fairly simple. My ultrasonic sensor draws a small amount of current, and my op-amp draws a very small amount of current. From the power budget I determined that I have enough power for my components using the voltage regulator we have been using. 
+The power budget has helped me to estimate how much power my system needs. I only have 3 components so my power needs are very low. I am only using a +5V rail so my design is fairly simple. My IR Emitter / Detector draws a small amount of current, and my op-amp draws a very small amount of current. From the power budget I determined that I have more than enough power for my components using the voltage regulator we have been using in class. 
 
 
 ## Resouces
