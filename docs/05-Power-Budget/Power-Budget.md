@@ -5,10 +5,7 @@ title: Power Budget
 ## Overview
 I made a power budget for my components by finding their datasheets and finding the specific voltage levels they need and how much current they draw. I then put in a voltage regulator to make sure it has enough power output that works with the specific components. I then put in a 9V wall power adaptor that will power everything. We made a power budget to ensure that enough power and current is going into this project, so nothing gets shorted or draws too much current than the system can handle, breaking things.
 
-
-<img width="1012" height="744" alt="Power budget page 1 final" src="https://github.com/user-attachments/assets/d968c6b0-b161-4926-ba88-df4060de2e82" />
-
-<img width="1024" height="420" alt="Power budget page 2 final" src="https://github.com/user-attachments/assets/ced52040-91ad-4d76-98fa-b176c9105446" />
+<img width="1167" height="655" alt="Power budget Final Final" src="https://github.com/user-attachments/assets/b9b92574-0f3b-4112-a62b-a67dbf226b52" />
 
 
 ## Conclusions
@@ -18,7 +15,4 @@ The power budget has helped me to estimate how much power my system needs. I onl
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](https://github.com/user-attachments/files/24018292/Power.Budget.BW.Final.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/user-attachments/files/24018306/Power.Budget.BW.Updated.xlsx).
-
-
-
+The power budget as a PDF download is available [*here*](https://github.com/user-attachments/files/24026927/Power.Budget.BW.Finall.pdf), and a Microsoft Excel Sheet [*here*](https://github.com/user-attachments/files/24026932/Power.Budget.BW.Final.xlsx).
