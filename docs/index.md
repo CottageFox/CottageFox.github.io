@@ -41,3 +41,10 @@ For my Resources, see [Resources](https://cottagefox.github.io/Resources/Resourc
 For my Reflection, see [Reflection](https://cottagefox.github.io/Reflection/Reflection/) <br>
 
 The link to my Teams website can be found [*here*](https://asu-egr304-2025-f-209.github.io/)
+
+### Final Project
+![Bryce](https://github.com/user-attachments/assets/80d6e4de-c457-4ec5-b51c-800fac468c60)
+**Figure 01** My Design
+
+
+
