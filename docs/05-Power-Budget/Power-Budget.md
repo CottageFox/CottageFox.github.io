@@ -6,7 +6,7 @@ title: Power Budget
 I made a power budget for my components by finding their datasheets and finding the specific voltage levels they need and how much current they draw. I then put in a voltage regulator to make sure it has enough power output that works with the specific components. I then put in a 9V wall power adaptor that will power everything. We made a power budget to ensure that enough power and current is going into this project, so nothing gets shorted or draws too much current than the system can handle, breaking things.
 
 <img width="1167" height="655" alt="Power budget Final Final" src="https://github.com/user-attachments/assets/b9b92574-0f3b-4112-a62b-a67dbf226b52" />
-
+**Figure 01** Power Budget
 
 ## Conclusions
 
