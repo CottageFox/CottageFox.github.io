@@ -38,5 +38,6 @@ For my PCB, see [PCB Design](https://cottagefox.github.io/06-PCB-Design/06-PCB-D
 For my code, see [Microcontroller Code](https://cottagefox.github.io/07-Microcontroller-Code/07-Microcontroller-Code/) <br>
 For my Hardware V2.0, see [Hardware V2.0](https://cottagefox.github.io/08-Hardware-V2.0/08-Hardware-V2.0/) <br>
 For my Resources, see [Resources](https://cottagefox.github.io/Resources/Resources/) <br>
+For my Reflection, see [Reflection](https://cottagefox.github.io/Reflection/Reflection/) <br>
 
 The link to my Teams website can be found [*here*](https://asu-egr304-2025-f-209.github.io/)
